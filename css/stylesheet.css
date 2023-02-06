@@ -36,6 +36,19 @@ body > ul > li:first-child::first-letter{
    
 }
 
-body > a{
+/* a[href*="https://bcit"]  "*=" is "contain at" */
+
+a[href*="https://bcit"]{
     background-color: yellow;
+}
+/* body > a{
+    background-color: yellow;
+} */
+
+img{
+    float: left;
+}
+
+.below{
+    clear:left  
 }
